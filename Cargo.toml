@@ -1,0 +1,10 @@
+[package]
+name = "protoserde"
+version = "0.1.0"
+authors = ["David Flemström <dflemstr@spotify.com>"]
+
+[dependencies]
+serde = "0.3.3"
+
+[dependencies.protobuf]
+git = "https://github.com/dflemstr/rust-protobuf.git"
